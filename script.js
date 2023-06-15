@@ -18,10 +18,12 @@ function login() {
     .then((userCredential) => {
       // Redirect to the appropriate dashboard page after successful login
       var user = userCredential.user;
-      if (user.email === "testing@gmail.com") {
+      if (user.email === "aircoms@extenteampartners.com") {
         window.location.href = "dashboard.html";
-      } else if (user.email === "testing2@gmail.com") {
+      } else if (user.email === "aspace@extenteampartners.com") {
         window.location.href = "dashboard2.html";
+	  } else if (user.email === "alexanderfi@extenteampartners.com") {
+        window.location.href = "dashboard3.html";
       }
     })
     .catch((error) => {
