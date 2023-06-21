@@ -1,1 +1,1 @@
-# extenteam-partners
+# extenteampartners
