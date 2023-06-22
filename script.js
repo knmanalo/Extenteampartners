@@ -19,11 +19,11 @@ function login() {
       // Redirect to the appropriate dashboard page after successful login
       var user = userCredential.user;
       if (user.email === "aircoms@extenteampartners.com") {
-        window.location.href = "dashboard.html";
+        window.location.href = "aircommunities.html";
       } else if (user.email === "aspace@extenteampartners.com") {
-        window.location.href = "dashboard2.html";
+        window.location.href = "aspace.html";
 	  } else if (user.email === "alexanderfi@extenteampartners.com") {
-        window.location.href = "dashboard3.html";
+        window.location.href = "alexanderforrestinvestments.html";
       }
     })
     .catch((error) => {
