@@ -12,9 +12,7 @@ body {
     padding: 20px;
     text-align: center;
 }
-.header {
-    display: flex;
-    align-items: center;
+
 }
 
 .header img {
