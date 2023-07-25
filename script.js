@@ -19,7 +19,7 @@ function login() {
       // Redirect to the appropriate dashboard page after successful login
       var user = userCredential.user;
       if (user.email === "aircoms@extenteampartners.com") {
-        window.location.href = "aircommunities.html";
+        window.location.href = "aircommunities";
       } else if (user.email === "aspace@extenteampartners.com") {
         window.location.href = "aspace.html";
 	  } else if (user.email === "alexanderfi@extenteampartners.com") {
