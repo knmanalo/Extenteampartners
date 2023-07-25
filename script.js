@@ -167,7 +167,7 @@ function login() {
 	  } else if (user.email === "sscv@extenteampartners.com") {
         window.location.href = "./seastarcoastalvacations";
 	  } else if (user.email === "seabreeze@extenteampartners.com") {
-        window.location.href = "./smdcapitalgroup";
+        window.location.href = "./seabreeze";
 	  } else if (user.email === "smdcg@extenteampartners.com") {
         window.location.href = "./smdcapitalgroup";
 	  } else if (user.email === "sccr@extenteampartners.com") {
