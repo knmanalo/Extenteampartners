@@ -204,7 +204,7 @@ function login() {
         window.location.href = "./urbanstay";
 	  } else if (user.email === "vhohiltonhead@extenteampartners.com") {
         window.location.href = "./vacationhomesofhiltonhead";
-	  } else if (user.email === "vintory@extenteampartners.com.com") {
+	  } else if (user.email === "vintory@extenteampartners.com") {
         window.location.href = "./vintory";
 	  } else if (user.email === "vr365@extenteampartners.com") {
         window.location.href = "./vr365";
