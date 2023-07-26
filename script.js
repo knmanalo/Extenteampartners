@@ -212,6 +212,9 @@ function login() {
         window.location.href = "./walkerluxuryvacationrentals";
 	  } else if (user.email === "ziprent@extenteampartners.com") {
         window.location.href = "./ziprent";
+	  } else if (user.email === "abodeluxuryrentals@extenteampartners.com") {
+        window.location.href = "./abodeluxuryrentals";
+		
       }
     })
     .catch((error) => {
