@@ -214,6 +214,40 @@ function login() {
         window.location.href = "./ziprent";
 	  } else if (user.email === "abodeluxuryrentals@extenteampartners.com") {
         window.location.href = "./abodeluxuryrentals";
+	  } else if (user.email === "amazingbransonrentals@extenteampartners.com") {
+        window.location.href = "./amazingbransonrentals";
+	  } else if (user.email === "arcadiaresort@extenteampartners.com") {
+        window.location.href = "./arcadiaresort";
+	  } else if (user.email === "belloiserealty@extenteampartners.com") {
+        window.location.href = "./belloiserealty";
+	  } else if (user.email === "bluewatervacationhomes@extenteampartners.com") {
+        window.location.href = "./bluewatervacationhomes";
+	  } else if (user.email === "ellisexclusivevillas@extenteampartners.com") {
+        window.location.href = "./ellisexclusivevillas";
+	  } else if (user.email === "erapropertymanagement@extenteampartners.com") {
+        window.location.href = "./erapropertymanagement";
+	  } else if (user.email === "innsbrookvacations@extenteampartners.com") {
+        window.location.href = "./innsbrookvacations";
+	  } else if (user.email === "jasonchenrealty@extenteampartners.com") {
+        window.location.href = "./jasonchenrealty";
+	  } else if (user.email === "libertylinen@extenteampartners.com") {
+        window.location.href = "./libertylinen";
+	  } else if (user.email === "poconorentals@extenteampartners.com") {
+        window.location.href = "./poconorentals";	
+	  } else if (user.email === "resortcleaning@extenteampartners.com") {
+        window.location.href = "./resortcleaning";
+	  } else if (user.email === "savvytravel@extenteampartners.com") {
+        window.location.href = "./savvytravel";
+	  } else if (user.email === "soarvacationrentalservices@extenteampartners.com") {
+        window.location.href = "./soarvacationrentalservices";
+	  } else if (user.email === "staycozyhomevacationrental@extenteampartners.com") {
+        window.location.href = "./staycozyhomevacationrental";
+      } else if (user.email === "stayinmydistrict@extenteampartners.com") {
+        window.location.href = "./stayinmydistrict";
+	  } else if (user.email === "thervagroup@extenteampartners.com") {
+        window.location.href = "./thervagroup";
+	  } else if (user.email === "topvillas@extenteampartners.com") {
+        window.location.href = "./topvillas";
 		
       }
     })
